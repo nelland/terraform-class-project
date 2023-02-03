@@ -161,3 +161,5 @@ resource "aws_route_table_association" "pri2_subnet_ngw_ass" {
   subnet_id      = aws_subnet.priv2_subnet.id
   route_table_id = aws_route_table.ngw_rt.id
 }
+
+#Testing purpose"
