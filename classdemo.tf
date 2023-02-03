@@ -162,4 +162,4 @@ resource "aws_route_table_association" "pri2_subnet_ngw_ass" {
   route_table_id = aws_route_table.ngw_rt.id
 }
 
-#Testing purpose"
+#Testing purpose for dev environment"
